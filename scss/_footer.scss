@@ -1,0 +1,42 @@
+.anchoFooter{
+    margin-top: 30px;
+    background-color: white;
+    text-align: center;
+}   
+
+.redes{
+    display: inline-block;
+}
+
+.bi-facebook{
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: black;
+
+       &:hover{
+          color: blue;
+    }
+}
+
+.bi-whatsapp{
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: black;
+
+      &:hover{
+         color: green;
+   }
+}
+
+.bi-instagram{
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: black;
+
+        &:hover{
+          color: red;
+    }
+}

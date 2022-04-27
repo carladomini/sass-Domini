@@ -1,0 +1,21 @@
+$decoracionh3: underline;
+$colorh3: #072971;
+$bg: aqua;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+body{
+    background-color: $bg;
+    background-image: url(fondo9.jpg);
+}
+
+@import "header";
+@import "main";
+@import "footer";
+
+
+

@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: aqua;
+  background-image: url(fondo9.jpg); }
+
+.nav-item {
+  justify-content: center;
+  background-color: white; }
+
+.nav-link {
+  color: black;
+  font-weight: bold; }
+
+.nav-link:hover {
+  color: blue; }
+
+.contenido-inicio {
+  height: auto; }
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  .logo.img {
+    animation-name: anima;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-duration: 2s;
+    width: 100px; }
+
+h1 {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 50px;
+  color: black;
+  text-align: center;
+  transition: all 1.4s; }
+  h1:hover {
+    font-size: 60px;
+    color: blue; }
+
+.fotopri {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 500px;
+  animation-name: fotopri;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+  animation-duration: 9s; }
+  .fotopri:hover {
+    -webkit-animation: 10s aparicion 1; }
+
+.h2 {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 28px;
+  text-align: center; }
+  .h2:hover {
+    font-size: 30px;
+    color: blue; }
+
+.h3 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 25px;
+  text-decoration: underline;
+  text-align: center; }
+
+.anchoFooter {
+  margin-top: 30px;
+  background-color: white;
+  text-align: center; }
+
+.redes {
+  display: inline-block; }
+
+.bi-facebook {
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: black; }
+  .bi-facebook:hover {
+    color: blue; }
+
+.bi-whatsapp {
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: black; }
+  .bi-whatsapp:hover {
+    color: green; }
+
+.bi-instagram {
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: black; }
+  .bi-instagram:hover {
+    color: red; }
